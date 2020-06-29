@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Numeros ordenados</title>
+        <link rel="stylesheet" type="text/css" href="../css/num_orde.css">
+        <script type="text/javascript">
+
+          num1=prompt("Ingresa primer numero: ");
+          num2=prompt("Ingresa segundo numero: ");
+          num3=prompt("Ingresa ultimo numero: ");
+        
+          if(num1>num2)
+            {
+              if(num1>num3)
+                {
+                  if(num2>num3)
+                  {
+                      alert("Numeros de mayor a menor: "+"\n"+num1+"\n"+num2+"\n"+num3);
+                  }
+                    else
+                    {
+                        alert("Numeros de mayor a menor: "+"\n"+num1+"\n"+num3+"\n"+num2);
+                    }
+                } 
+            }
+          else if(num2>num1)
+          {
+              if(num2>num3)
+              {
+                  if(num1>num3)
+                  {
+                    alert("Numeros de mayor a menor: "+"\n"+num2+"\n"+num1+"\n"+num3);
+                  }
+                  
+                  else
+                  {
+                    alert("Numeros de mayor a menor: "+"\n"+num2+"\n"+num3+"\n"+num1);
+                  }
+              }
+                else if(num3>num2)
+                  {
+                        if(num3>num1)
+                        {
+                            if(num2>num1)
+                            {
+                                alert("Numeros de mayor a menor: "+"\n"+num3+"\n"+num2+"\n"+num1);
+                            }
+                            else
+                            {
+                                alert("Numeros de mayor a menor: "+"\n"+num3+"\n"+num1+"\n"+num2);
+                            }
+                        }
+                    }
+            }
+        </script>
+    </head>
+
+
+    <body>
+        
+    </body>
+</html>
